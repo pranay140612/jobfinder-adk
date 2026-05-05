@@ -1,0 +1,7 @@
+google-adk
+requests
+pypdf
+python-dotenv
+fastapi
+uvicorn[standard]
+python-multipart
