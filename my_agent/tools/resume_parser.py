@@ -30,7 +30,7 @@ def parse_resume(file_path: str = "") -> dict:
         if not file_path:
             file_path = os.environ.get(
                 "RESUME_PATH",
-                r"C:\Users\JMD\Downloads\Pranay_chaudhary_resume.pdf",
+                r"file location",
             )
 
         if not os.path.exists(file_path):
