@@ -1,0 +1,33 @@
+# Environment variables (KEEP PRIVATE)
+.env
+my_agent/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Database
+*.db
+
+# ADK
+.adk/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Uploads (user data)
+uploads/
